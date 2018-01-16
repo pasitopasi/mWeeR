@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="fondo_app">#B3E6FF</color>
+    <color name="appbar_notifi">#8ad8ff</color>
+    <color name="barra_notifi">#75b9da</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#ffffff</color>
+    <color name="negroHint">#7f7f7f</color>
+</resources>

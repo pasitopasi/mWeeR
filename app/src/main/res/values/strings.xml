@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">mWeeR</string>
+    <string name="correo_hint">Nombre usuario</string>
+    <string name="titulo_login">Nombre</string>
+    <string name="checkbox_login">Recordar usuario y ciudad</string>
+    <string name="boton_login">Acceder</string>
+    <string name="salir_pregunta">¿Estás seguro de salir de la aplicación?</string>
+    <string name="salir_pregunta_si">Si</string>
+    <string name="salir_pregunta_no">No</string>
+    <string name="fallo_vacio_correo">Fallo: Introduce un nombre</string>
+    <string name="menu_opcion_1">Información por horas</string>
+    <string name="menu_opcion_2">Información cada 3 horas</string>
+    <string name="menu_opcion_3">Próximos días</string>
+    <string name="menu_salida">Salir</string>
+    <string name="menu_desconectar">Desconectar</string>
+
+    <string name="title_activity_menu">mWeeR</string>
+    <string name="toast_ciudad">CIUDAD:\u0020</string>
+    <string name="toast_bienvenida">Bienvenido:</string>
+
+    <string name="toast_dia">Día:\u0020</string>
+    <string name="toast_temp_min">Temperatura mínima:\u0020</string>
+    <string name="toast_temp_max">Temperatura máxima:\u0020</string>
+    <string name="toast_grados">º</string>
+    <string name="toast_internet">NO HAY INTERNET</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Opciones</string>
+    <string name="action_estadisticas">Estadísticas</string>
+    <string name="label_temperatura_estadisticas">Temperaturas</string>
+    <string name="label_temperatura_minima_estadisticas">Temperaturas mínima</string>
+    <string name="label_temperatura_maxima_estadisticas">Temperaturas máxima</string>
+
+    <string name="o_recordar">Recordar usuario y ciudad</string>
+    <string name="o_recordar_descripccion">Permitir que inicie la aplicacion sin pedir la ciudad</string>
+    <string name="o_idioma">Idioma</string>
+    <string name="o_idioma_tit">Idioma de la aplicación</string>
+    <string name="o_idioma_view">Seleccione idioma</string>
+
+    <string name="dp_cielo">Cielo</string>
+    <string name="dp_viento">Viento</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="pais">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="codigopais">
+        <item>ESP</item>
+        <item>ING</item>
+    </string-array>
+
+    <string name="ciudad_1"> Albacete</string>
+    <string name="ciudad_2"> Almansa </string>
+    <string name="ciudad_escoger">Escoja una ciudad</string>
+
+    <string name="temp_min">T. Mínima</string>
+    <string name="temp_max">T. Máxima</string>
+
+    <string name="simbolo_grados">\u0020º</string>
+    <string name="error_user">Error al obtener usuario</string>
+
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="">
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/o_recordar" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="usuario_opcion"
+            android:title="@string/o_recordar"
+            android:summary="@string/o_recordar_descripccion" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/o_idioma">
+        <ListPreference
+            android:summary=""
+            android:defaultValue="ESP"
+            android:key="idioma_opcion"
+            android:title="@string/o_idioma_tit"
+            android:dialogTitle="@string/o_idioma_view"
+            android:entries="@array/pais"
+            android:entryValues="@array/codigopais"/>
+    </PreferenceCategory>
+</PreferenceScreen>

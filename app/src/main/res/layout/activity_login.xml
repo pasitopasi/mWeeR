@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_app">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/titulo_login"
+        android:textColor="@color/negro"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/negro"
+        android:textColorHint="@color/negroHint"
+        android:hint="@string/correo_hint" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/ciudad_escoger"
+        android:textColor="@color/negro"
+        android:textSize="25dp" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textColor="@color/negro"
+        />
+    <CheckBox
+        android:id="@+id/recordar"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:checked="true"
+        android:textColor="@color/negro"
+        android:buttonTint="@color/negro"
+        android:text="@string/checkbox_login" />
+    <Button
+        android:id="@+id/acceder"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="@string/boton_login"
+        android:textSize="15dp"
+        android:onClick="login"/>
+
+
+
+</LinearLayout>

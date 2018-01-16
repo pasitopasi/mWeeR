@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo_app">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/negro" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/label_temperatura_estadisticas"
+        android:textColor="@color/negro"
+        android:textSize="25dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/grafica"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textColor="@color/negro"/>
+
+    <TextView
+        android:id="@+id/temp_media_e"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/label_temperatura_maxima_estadisticas"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/temp_media"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/label_temperatura_minima_estadisticas"
+        android:textSize="17dp" />
+
+</LinearLayout>
