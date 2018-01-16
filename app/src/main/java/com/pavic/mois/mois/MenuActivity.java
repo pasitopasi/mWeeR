@@ -87,6 +87,13 @@ public class MenuActivity extends AppCompatActivity
                 }
             }
         }, 500);
+
+        // MenuItem item = (MenuItem) findViewById( R.id.menu_opcion1 );
+        // item.set
+        navigationView.getMenu().getItem(0).setChecked(true);
+        ProximosDiasFragment frament = new ProximosDiasFragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.Contenedor, frament).commit();
+
     }
 
     @Override
