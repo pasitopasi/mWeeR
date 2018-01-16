@@ -161,6 +161,7 @@ public class ProximosDiasFragment extends Fragment {
                     arrayList.add(semana.getDia(i));
                     adapter.notifyDataSetChanged();
                 }
+
                 /*
                 list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
