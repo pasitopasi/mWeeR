@@ -67,6 +67,7 @@ public class AdapterProximosDias extends BaseAdapter{
         tem_max.setText(arrayList.get(i).getTemperaturaMaxima()+ context.getString(R.string.simbolo_grados));
         temp_min.setText(arrayList.get(i).getTemperaturaMinima()+ context.getString(R.string.simbolo_grados));
 
+        
         String icono_N = arrayList.get(i).getIcono();
         switch(icono_N) {
             case "1":
