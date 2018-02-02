@@ -161,19 +161,6 @@ public class ProximosDiasFragment extends Fragment {
                     arrayList.add(semana.getDia(i));
                     adapter.notifyDataSetChanged();
                 }
-
-                /*
-                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                        Dia dia = (Dia)adapterView.getItemAtPosition(i);
-                        String s =  getText( R.string.toast_dia )  + dia.getDia()
-                                + "\n\t\t" + getText( R.string.toast_temp_min ) + dia.getTemperaturaMinima() + getText( R.string.toast_grados )
-                                + "\n\t\t" + getText( R.string.toast_temp_max ) + dia.getTemperaturaMaxima() + getText( R.string.toast_grados );
-                        Toast.makeText(getContext(), s, Toast.LENGTH_SHORT).show();
-                    }
-                });
-                */
             }catch(Exception e){
                 Toast.makeText(getContext(), getText(R.string.toast_internet), Toast.LENGTH_LONG).show();
             }
